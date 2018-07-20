@@ -19,9 +19,9 @@ int main()
  
     do 
     {
-        cout << "\nVvedite chislo i nashmite 'enter'\n\t-> ";
+        cout << "\nEnter the number, press 'Enter'\n\t-> ";
         cin >> x;
-        if (x == n) cout << "Ura! Vi ugadali!";
+        if (x == n) cout << "Hurray! You win!";
         count++; 
         if ( x  >n) cout << "Your number is greater than the one we are thinking about." << endl;
         if ( x < n) cout << "Your number is less than the one we have envisioned." << endl;
