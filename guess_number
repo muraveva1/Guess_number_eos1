@@ -13,9 +13,9 @@ int main()
     srand(time(0));
     n = rand()%100 + 1;
  
-    cout << "Igra 'ugadai chislo'" << endl 
-         << "Computer zadumal chislo ot 1 do 100" << endl
-         << "Ugadaite ego za 5 popitok." << endl;
+    cout << "The game 'guess the number'" << endl 
+         << "The computer made a number from 1 to 100" << endl
+         << "Guess it with 5 attempts." << endl;
  
     do 
     {
